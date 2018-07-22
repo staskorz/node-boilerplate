@@ -4,14 +4,14 @@ module.exports = {
   env: {
     es6: true,
     node: true,
-    jest: true
+    jest: true,
   },
 
   parserOptions: {
-    ecmaVersion: 2018
+    ecmaVersion: 2018,
   },
 
   extends: ["eslint:recommended", "plugin:prettier/recommended", "prettier"],
 
-  plugins: ["prettier"]
-};
+  plugins: ["prettier"],
+}
